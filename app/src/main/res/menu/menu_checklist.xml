@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/newItem"
+        android:icon="@drawable/ic_add_box_black_36dp"
+        android:title="New item"
+        app:showAsAction="always" />
+    <item android:id="@+id/dependencies"
+        android:title="Dependencies"
+        app:showAsAction="never" />
+    <group android:id="@+id/checkGroup">
+        <item android:id="@+id/checkAll"
+            android:title="Check all"
+            app:showAsAction="never" />
+        <item android:id="@+id/uncheckAll"
+            android:title="Uncheck all"
+            app:showAsAction="never" />
+        <item android:id="@+id/toggleCheck"
+            android:title="Toggle check"
+            app:showAsAction="never" />
+    </group>
+    <group android:id="@+id/actionGroup">
+        <item android:id="@+id/moveItems"
+            android:title="Move/Copy checked"
+            app:showAsAction="never" />
+        <item android:id="@+id/deleteItems"
+            android:title="Delete checked"
+            app:showAsAction="never" />
+    </group>
+    <group android:id="@+id/deleteGroup">
+        <item android:id="@+id/delete"
+            android:title="Delete"
+            app:showAsAction="never" />
+    </group>
+</menu>

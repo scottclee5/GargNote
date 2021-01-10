@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">GargNote</string>
+    <string name="title_activity_check_list">CheckListActivity</string>
+    <string name="untitled">Untitled</string>
+    <string name="savefailed">Save failed.</string>
+    <string name="deletefailed">Delete failed.</string>
+    <string name="unknownchecklist">Unable to find checklist.</string>
+    <string name="unknownfolder">Unable to find folder.</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="folder">Folder</string>
+    <string name="new_folder">New folder</string>
+    <string name="move_to_folder">Move to folder:</string>
+    <string name="checklistitem_movecopy">Move/Copy to checklist:</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="move">Move</string>
+    <string name="copy">Copy</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="confirm_delete_folder">Are you sure that you wish to delete the selected folder and all of its contents?</string>
+    <string name="confirm_delete_note">Are you sure that you wish to delete the selected note?</string>
+    <string name="confirm_delete_checklist">Are you sure that you wish to delete the selected checklist?</string>
+    <string name="add_more">Add more</string>
+    <string name="confirm_delete_checklistitem">Are you sure that you wish to delete the selected checklist item(s)?</string>
+    <string name="confirm_delete_virtualchecklistitem">One or more selected checklist items are owned by another checklist.  Are you sure that you wish to delete the selected checklist item(s)?</string>
+</resources>

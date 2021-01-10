@@ -1,0 +1,93 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="MainListItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="MainItem" parent="TextAppearance.AppCompat">
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="MainItem.Name">
+        <item name="android:textSize">10pt</item>
+    </style>
+
+    <style name="MainItem.Timestamp">
+        <item name="android:textSize">6pt</item>
+    </style>
+
+    <style name="CheckListStatus" parent="MainItem">
+        <item name="android:textSize">6pt</item>
+    </style>
+
+    <style name="CheckListStatus.Green">
+        <item name="android:textColor">@color/Black</item>
+    </style>
+
+    <style name="CheckListStatus.Red">
+        <item name="android:textColor">@color/White</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="CheckListItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="CheckListItemName">
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">8pt</item>
+    </style>
+
+    <style name="CheckListItemName.Incomplete">
+        <item name="android:textColor">@color/Black</item>
+    </style>
+
+    <style name="CheckListItemName.Complete">
+        <item name="android:textColor">@color/DimGray</item>
+    </style>
+
+    <style name="AlertDialogListItem">
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">10pt</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="AlertDialogListItemName">
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">10pt</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
